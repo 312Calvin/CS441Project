@@ -1,0 +1,27 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "Animal nutrition related project using some form of machine learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/312Calvin/CS441Project.git"
+  },
+  "keywords": [
+    "CS",
+    "441",
+    "nutrition",
+    "livestock",
+    "machine",
+    "learning"
+  ],
+  "author": "Calvin Deering",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/312Calvin/CS441Project/issues"
+  },
+  "homepage": "https://github.com/312Calvin/CS441Project#readme"
+}
