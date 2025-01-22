@@ -5,7 +5,7 @@ function App() {
   // States to manage user input
   const [ingredients, setIngredients] = useState([{ name: '', price: '' }]);
   const [pigWeight, setPigWeight] = useState('');
-  const [pigAge, setPigAge] = useState('');
+  const [pigAge, setPigAge] = useState(12);
   const [daysAfterFarrowing, setDaysAfterFarrowing] = useState('');
   const [pigDataFilled, setPigDataFilled] = useState(null); //TODO, for editable pig req
   const [submittedData, setSubmittedData] = useState(null);
@@ -87,7 +87,7 @@ function App() {
               placeholder="Enter the weight of the pig(s)"
             />
           </div>
-
+          {/*
           <div className="input-group">
             <label>Pig Age (weeks):</label>
             <input
@@ -107,7 +107,7 @@ function App() {
               placeholder="Enter the number of days after farrowing"
             />
           </div>
-
+          Taken out, won't finish project in time*/}
           <div className="input-group">
             <label>Feedstuffs (change number by clicking '+/-'):</label>
             {ingredients.map((ingredient, index) => (
